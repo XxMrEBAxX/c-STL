@@ -150,6 +150,7 @@
     <ClCompile Include="c++STL.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="map.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
