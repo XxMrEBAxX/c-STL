@@ -9,8 +9,10 @@
 #include <stdexcept>
 #include <vector>
 
-namespace cs540 {
-	template<typename Key_T, typename Mapped_T> class Map {
+namespace cs540
+{
+	template<typename Key_T, typename Mapped_T> class Map
+	{
 	public:
 		class Node;
 		class Base_Node;
@@ -63,7 +65,8 @@ namespace cs540 {
 		Map();
 		Map(const Map&);
 		Map& operator=(const Map&);
-		Map(std::initializer_list<std::pair<const Key_T, Mapped_T>>);
+		// explicit Ãß°¡
+		explicit Map(std::initializer_list<std::pair<const Key_T, Mapped_T>>);
 		~Map();
 		//Size
 		size_t size() const;
