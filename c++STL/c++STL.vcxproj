@@ -148,8 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="c++STL.cpp" />
+    <ClCompile Include="deque.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="deque.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
