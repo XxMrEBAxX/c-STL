@@ -165,3 +165,6 @@ template<typename T> void Deque_Arr<T>::display() const
 		}
 	}
 }
+
+https://codereview.stackexchange.com/questions/148303/implementation-of-stddeque
+
