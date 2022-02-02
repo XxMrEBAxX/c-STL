@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="deque.h" />
+    <ClInclude Include="list.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
